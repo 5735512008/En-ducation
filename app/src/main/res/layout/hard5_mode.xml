@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgqq"
+    android:orientation="vertical"
+    tools:showIn="@layout/hard5_mode"
+    tools:context=".Hard5Mode">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="450px"
+            android:layout_height="200px"
+            android:layout_marginTop="20dp"
+            android:text="JIGSAW 1"
+            android:textColor="@color/colorAccent"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw1_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2" />
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw2_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2" />
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw3_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw4_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2" />
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw5_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2"
+                app:srcCompat="@drawable/long25" />
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw6_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw7_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2" />
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw8_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2" />
+
+            <ImageButton
+                android:id="@+id/BtBigJigsaw9_id"
+                android:layout_width="200px"
+                android:layout_height="200px"
+                android:layout_weight="1"
+                android:background="@null"
+                android:onClick="BigJigsawClick"
+                android:scaleType="fitXY"
+                android:src="@drawable/dropans2" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ViewStub
+
+        android:layout_width="50px"
+        android:layout_height="50px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw1_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long21" />
+
+        <ViewStub
+
+            android:layout_width="50px"
+            android:layout_height="50px"/>
+
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw2_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long22" />
+
+        <ViewStub
+
+            android:layout_width="50px"
+            android:layout_height="50px"/>
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw3_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long23" />
+
+        <ViewStub
+
+            android:layout_width="50px"
+            android:layout_height="50px"/>
+
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw4_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long24" />
+
+        <ViewStub
+
+            android:layout_width="50px"
+            android:layout_height="50px"/>
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw5_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long25" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw6_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long26" />
+
+        <ViewStub
+
+            android:layout_width="50px"
+            android:layout_height="50px"/>
+
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw7_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long27" />
+
+        <ViewStub
+
+            android:layout_width="50px"
+            android:layout_height="50px"/>
+
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw8_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long28" />
+        <ViewStub
+
+            android:layout_width="50px"
+            android:layout_height="50px"/>
+
+        <ImageButton
+            android:id="@+id/BtSmallJigsaw9_id"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="SmallJigsawClicked"
+            android:scaleType="fitXY"
+            android:src="@drawable/long29" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="checkClicked"
+            android:scaleType="fitCenter"
+            android:src="@drawable/atrue" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

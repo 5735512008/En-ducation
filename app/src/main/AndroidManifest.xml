@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nam.en_ducation">
+
+        <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme">
+            <activity
+                android:name=".MainActivity"
+                android:label="@string/app_name">
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
+
+                    <category android:name="android.intent.category.LAUNCHER" />
+                </intent-filter>
+            </activity>
+
+            <activity
+                android:name=".Thai1Activity"
+                android:label="เรียนรู้พยัญชนะ">
+                <intent-filter>
+                    <action android:name="com.example.nam.en_ducation" />
+
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+
+            </activity>
+            <activity
+                android:name=".Thai1aActivity"
+                android:label="เรียนรู้พยัญชนะ">
+                <intent-filter>
+                    <action android:name="com.example.nam.en_ducation" />
+
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+            </activity>
+            <activity android:name=".CanvasView"  android:label=" " />
+
+
+            <activity
+                android:name=".K1Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K2Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K3Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K4Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K5Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K6Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K7Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K8Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K9Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K10Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K11Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K12Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K13Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K14Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K15Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K16Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K17Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K18Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K19Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K20Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K21Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K22Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K23Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K24Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+            android:name=".K25Activity"
+            android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+            android:name=".K26Activity"
+            android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K27Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K28Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K29Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K30Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K31Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+
+            <activity
+                android:name=".K32Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K33Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K34Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K35Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K36Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+
+            <activity
+                android:name=".K37Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K38Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K39Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K40Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K41Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K42Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K43Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".K44Activity"
+                android:label="ฝึกเขียนพยัญชนะ ก-ฮ" />
+            <activity
+                android:name=".Thai1bActivity"
+                android:label="เรียนรู้พยัญชนะ" />
+            <activity
+                android:name=".Thai2Activity"
+                android:label="เรียนรู้สระ" />
+            <activity
+                android:name=".Thai2aActivity"
+                android:label="เรียนรู้สระ" />
+            <activity
+                android:name=".Insara1"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara2"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara3"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara4"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara5"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara6"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara7"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara8"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara9"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara10"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara11"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara12"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara13"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara14"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara15"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara16"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara17"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara19"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara20"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara21"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara22"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara23"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara18"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara24"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara25"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara26"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Insara27"
+                android:label=" เรียนรู้สระ" />
+            <activity
+                android:name=".Thai3aActivity"
+                android:label=" เรียนรู้วรรณยุกต์" />
+            <activity
+                android:name=".Thai3Activity"
+                android:label="เรียนรู้วรรณยุกต์" />
+            <activity
+                android:name=".Thai3bActivity"
+            android:label="เรียนรู้วรรณยุกต์" />
+            <activity
+                android:name=".Thai3cActivity"
+                android:label="เรียนรู้วรรณยุกต์" />
+            <activity
+                android:name=".Thai3dActivity"
+                android:label="เรียนรู้วรรณยุกต์" />
+            <activity
+                android:name=".Thai3eActivity"
+                android:label="เรียนรู้วรรณยุกต์" />
+            <activity
+                android:name=".Thai2bActivity"
+                android:label="เรียนรู้วรรณยุกต์" />
+            <activity
+                android:name=".Game3Activity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3aActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3bActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3dActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3cActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3eActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3fActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3gActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3hActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity
+                android:name=".Game3iActivity"
+                android:label="แบบฝึกคำศัพท์" />
+            <activity android:name=".EngEn1"
+                android:label="เรียนรู้ตัวอักษร A-Z" />
+            <activity android:name=".EngEn2" android:label="เรียนรู้คำศัพท์ ตัวเลข" />
+            <activity android:name=".EngEn01"
+                android:label="เรียนรู้ตัวอักษร A-Z" />
+            <activity android:name=".EngEn02" android:label="หมวดตัวเลข " />
+            <activity android:name=".EngEn03" android:label="รูปทรงเรขาคณิต" />
+            <activity android:name=".EngEn04" android:label="หมวดสี" />
+            <activity android:name=".EngEn05" android:label="หมวดสัตว์" />
+            <activity android:name=".EngEn06" android:label="หมวดผลไม้" />
+            <activity android:name=".EngEn4" android:label=" หมวดสี" />
+            <activity android:name=".EngEn3" android:label="รูปทรงเรขาคณิต" />
+            <activity android:name=".EngEn5" android:label="หมวดสัตว์" />
+            <activity android:name=".EngEn6" android:label="หมวดผลไม้" />
+            <activity android:name=".EngEn7" android:label="หมวดครอบครัว"/>
+            <activity android:name=".EngEn8" android:label="หมวดอาชีพ" />
+            <activity android:name=".EngEn07" android:label="หมวดครอบครัว" />
+            <activity android:name=".EngEn7c" android:label="หมวดครอบครัว" />
+            <activity android:name=".EngEn08" android:label="หมวดอาชีพ"  />
+            <activity android:name=".Question1" android:label=" " />
+            <activity android:name=".Question" android:label=" " />
+            <activity android:name=".Question2" android:label=" " />
+            <activity android:name=".Question3" android:label=" " />
+            <activity android:name=".Question5" android:label=" " />
+            <activity android:name=".Question6" android:label=" " />
+            <activity android:name=".Question7" android:label=" " />
+            <activity android:name=".Hard2Mode" android:label=" Jigsaw" />
+            <activity android:name=".Hard1Mode" android:label=" Jigsaw" />
+            <activity android:name=".Hard3Mode" android:label=" Jigsaw" />
+            <activity android:name=".Hard4Mode" android:label=" Jigsaw" />
+            <activity android:name=".Hard5Mode" android:label=" Jigsaw" />
+            <activity android:name=".Hard6Mode" android:label=" Jigsaw" />
+            <activity android:name=".ThaiTest"
+                android:label="ฝึกฟังพยัญชนะ ก-ฮ" />
+            <activity android:name=".Question8" android:label=" " />
+
+
+            <activity android:name=".Thai4Activity"
+            android:label="คำศัพท์" />
+            <activity android:name=".Thai4aActivity"
+                android:label="คำศัพท์" />
+            <activity android:name=".Thai4bActivity"
+                android:label="คำศัพท์" />
+            <activity android:name=".Thai4cActivity"
+                android:label="คำศัพท์" />
+            <activity android:name=".Thai4dActivity"
+                android:label="คำศัพท์" />
+            <activity android:name=".Thai4eActivity"
+                android:label="คำศัพท์" />
+            <activity android:name=".Thai4fActivity"
+                android:label="คำศัพท์" />
+            <activity android:name=".Thai4gActivity"
+                android:label="คำศัพท์" />
+            <activity android:name=".Thai2Test"
+                android:label="เรียนรู้สระ" />
+            <activity android:name=".EngEn1c"
+                android:label="เรียนรู้ตัวอักษร A-Z" />
+
+            <activity android:name=".Custom"></activity>
+
+            <activity android:name=".EngEn102"  android:label= "เรียนรู้ตัวอักษร A-Z" />
+            <activity android:name=".EngEn022"  android:label= "หมวดตัวเลข " />
+            <activity android:name=".EngEn4a" android:label= "หมวดสี" />
+            <activity android:name=".EngEn4c" android:label= "หมวดสี" />
+            <activity android:name=".EngEn3a" android:label= "รูปทรงเรขาคณิต" />
+            <activity android:name=".EngEn3b" android:label="รูปทรงเรขาคณิต" />
+            <activity android:name=".EngEn5a" android:label= "หมวดสัตว์" />
+            <activity android:name=".EngEn5c" android:label= "หมวดสัตว์" />
+            <activity android:name=".EngEn6a" android:label= "หมวดผลไม้"/>
+            <activity android:name=".EngEn6c" android:label= "หมวดผลไม้"/>
+            <activity android:name=".EngEn6b" android:label= "หมวดผลไม้"/>
+            <activity android:name=".EngEn8a" android:label= "หมวดอาชีพ"  />
+            <activity android:name=".EngEn8c" android:label= "หมวดอาชีพ"  />
+            <activity android:name=".EngEn7a" android:label= "หมวดครอบครัว" />
+            <activity android:name=".ChooseAnswer" android:label= "" />
+            <activity android:name=".EngEn4b" android:label= "หมวดสี " />
+
+            <activity
+                android:name=".PuzzleActivity"
+                android:label="Game Puzzle " />
+        </application>
+
+    </manifest>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Thai1aActivity">
+
+    <item android:id="@+id/back"
+        android:icon="@drawable/back2"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        app:showAsAction="withText|ifRoom"/>
+      </menu>

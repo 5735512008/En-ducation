@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Thai1Activity"
+    android:background="@drawable/bgqq">
+
+    <Button
+        android:id="@+id/thai1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="104dp"
+        android:background="@drawable/aa" />
+
+    <Button
+        android:id="@+id/thai2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/thai1"
+        android:layout_alignStart="@+id/thai1"
+        android:layout_below="@+id/thai1"
+        android:background="@drawable/ab" />
+
+    <Button
+        android:id="@+id/thai3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/thai2"
+        android:layout_alignStart="@+id/thai2"
+        android:layout_below="@+id/thai2"
+        android:background="@drawable/ac" />
+
+    <Button
+        android:id="@+id/thai4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/thai3"
+        android:layout_alignStart="@+id/thai3"
+        android:layout_below="@+id/thai3"
+        android:background="@drawable/ad" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/thai1"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/thai1"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="53dp"
+        android:text="TextView" />
+
+</RelativeLayout>

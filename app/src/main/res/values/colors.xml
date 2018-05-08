@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="tile_color">#000000</color>
+    <color name="board_color">#ff4081</color>
+    <color name="boards_color">#F5B800</color>
+    <color name="yellow_color">#fff000</color>
+    <color name="green_color">#D4E51A</color>
+    <color name="greens_color">#9ac929</color>
+    <color name="blue_color">#2FAEB6</color>
+
+</resources>

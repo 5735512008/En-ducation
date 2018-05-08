@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:orientation="vertical"
+    tools:context="com.example.nam.en_ducation.ChooseAnswer"
+    android:background="@drawable/bgqq">
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_weight="1"
+       android:weightSum="3"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+
+    <ImageView
+        android:id="@+id/ima_1"
+        android:src="@drawable/num61"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ima_2"
+        android:src="@drawable/num62"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/ima_3"
+        android:src="@drawable/num63"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <ImageView
+            android:id="@+id/ima_4"
+            android:src="@drawable/num64"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ima_5"
+            android:src="@drawable/num65"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/ima_6"
+            android:src="@drawable/num66"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <ImageView
+            android:id="@+id/ima_7"
+            android:src="@drawable/num67"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ima_8"
+            android:src="@drawable/num68"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/ima_9"
+            android:src="@drawable/num69"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <ImageView
+            android:id="@+id/ima_10"
+            android:src="@drawable/num70"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/ima_11"
+            android:src="@drawable/num71"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>
